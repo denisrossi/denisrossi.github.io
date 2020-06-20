@@ -1,0 +1,8 @@
+ignition_one:
+  name: "IgnitionOne"
+  url: "https://ignitionone.com"
+  start_date: "2014-03"
+  end_date: "2018-09"
+  description: |
+    Bla bla
+    

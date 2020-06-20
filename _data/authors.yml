@@ -1,0 +1,9 @@
+Denis Rossi:
+  name: "Denis Rossi"
+  avatar: "/assets/images/author-avatar_250x250.png"
+  bio: |
+    <ul>
+      <li>Born on Earth</li>
+      <li>Moved on Earth</li>
+      <li>Probably dying on Earth</li>
+    </ul>
