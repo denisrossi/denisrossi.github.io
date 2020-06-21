@@ -1,0 +1,91 @@
+languages:
+  java:
+    name: Java
+    url:   
+    descpription: |
+      Bla bla
+  typescript:
+    name: TypeScript
+    url:
+    description: |
+      Bla bla
+  kotlin:
+    name: Kotlin
+    url:
+    description: |
+      Bla bla
+  groovy:
+    name: Groovy
+    url:
+    description: |
+      Bla bla
+  javascript:
+    name: JavaScript
+    url:
+    description: |
+      Bla bla
+  sql:
+    name: SQL
+    url:
+    description: |
+      Bla bla
+  markdown:
+    name: Markdown
+    url:
+    description: |
+      Bla bla
+databases:
+  postgres:
+    name: PostgreSQL
+    url:
+    description: |
+      Bla bla
+  oracle:
+    name: Orcale
+    url:
+    description: |
+      Bla bla
+  sql_server:
+    name: SQL Server
+    url:
+    description: |
+      Bla bla
+  my_sql:
+    name: MySQL
+    url:
+    description: |
+      Bla bla
+caches:
+  memcached:
+    name: Memcached
+    url:
+    description: |
+      Bla bla
+  redis:
+    name: Redis
+    url:
+    description: |
+      Bla bla
+  aerospike:
+    name: Aerospike
+    url:
+    description: |
+      Bla bla
+libraries:
+  spring:
+    name: Spring
+    url:
+    description: |
+      Bla bla
+  spring_boot:
+    name: Spring Boot
+    url:
+    description: |
+      Bla bla
+  netty:
+    name: Netty
+    url:
+    description: |
+      Bla bla
+ci_cd:
+cloud:

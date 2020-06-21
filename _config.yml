@@ -1,5 +1,7 @@
 include: ["_pages"]
 
+markdown: kramdown
+
 defaults:
   # _pages
   - scope:

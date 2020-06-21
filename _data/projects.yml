@@ -2,6 +2,8 @@ rtb:
   name: "Real Time Bidding Server"
   short_name: "RTB"
   company: "ignition_one"
+  description: |
+    An RTB server is a high throughput and low latency web server.
   languages:
     - java
     - php
@@ -17,3 +19,20 @@ rtb:
     - aerospike
   others:
     - protobuf
+acceptance_js:
+  name: "Portfolio Acceptance Test"
+  short_name: "portfolio-acceptance-js"
+  url: "https://github.com/denisrossi/portfolio-acceptance-js"
+  deliverable: "/assets/deliverables/acceptance_js/index.html"
+  description: |
+    JavaScript implementation of acceptance test for this website
+  languages:
+    - typescript
+    - javascript
+    - gherkin
+  frameworks:
+    - SerenityJS
+    - Cucumber
+    - Protractor
+  external_systems:
+    - Selenium Server

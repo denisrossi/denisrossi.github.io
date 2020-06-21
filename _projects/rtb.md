@@ -3,9 +3,11 @@ title: RTB
 ---
 {% assign project = site.data.projects.rtb %}
 {% assign company = site.data.companies[project.company] %}
+At [{{ company.name }}]({{ company.url }})
+> {{ company.date_start }} - {{ company.date_end }}
 
 ## What is it?
-An {{ project.short_name}} server is a high throughput and low latency web server.
+{{ project.description }}
 
 ## How was done?
 Using languages:
