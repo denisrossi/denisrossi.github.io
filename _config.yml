@@ -38,3 +38,10 @@ collections:
     permalink: /:collection/:path/
   tools:
     output: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-170207507-1"
+    anonymize_ip: false # default
+
