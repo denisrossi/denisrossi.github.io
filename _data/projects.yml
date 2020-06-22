@@ -4,21 +4,22 @@ rtb:
   company: "ignition_one"
   description: |
     An RTB server is a high throughput and low latency web server.
-  languages:
-    - java
-    - php
-    - bash
-  frameworks:
-    - netty
-    - osgi
-    - spring core
-  external_systems:
-    - memcached
-    - redis
-    - kafka
-    - aerospike
-  others:
-    - protobuf
+  tools:
+    languages:
+      - java
+      - php
+      - bash
+    libraries:
+      - netty
+      - osgi
+      - spring
+    external_systems:
+      - memcached
+      - redis
+      - kafka
+      - aerospike
+    others:
+      - protobuf
 acceptance_js:
   name: "Portfolio Acceptance Test"
   short_name: "portfolio-acceptance-js"
@@ -26,13 +27,14 @@ acceptance_js:
   deliverable: "/assets/deliverables/acceptance_js/index.html"
   description: |
     JavaScript implementation of acceptance test for this website
-  languages:
-    - typescript
-    - javascript
-    - gherkin
-  frameworks:
-    - SerenityJS
-    - Cucumber
-    - Protractor
-  external_systems:
-    - Selenium Server
+  tools:
+    languages:
+      - typescript
+      - javascript
+      - gherkin
+    frameworks:
+      - serenity_js
+      - cucumber
+      - protractor
+    external_systems:
+      - selenium_server

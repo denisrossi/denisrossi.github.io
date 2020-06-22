@@ -24,6 +24,16 @@ languages:
     url:
     description: |
       Bla bla
+  php:
+    name: PHP
+    url:
+    description: |
+      Bla bla
+  bash:
+    name: Basch script
+    url:
+    description: |
+      Bla bla
   sql:
     name: SQL
     url:
@@ -31,6 +41,27 @@ languages:
       Bla bla
   markdown:
     name: Markdown
+    url:
+    description: |
+      Bla bla
+  gherkin:
+    name: Gherkin
+    url:
+    description: |
+      Bla bla
+build:
+  gradle:
+    name: Gradle
+    url:
+    description: |
+      Bla bla
+  maven:
+    name: Maven
+    url:
+    description: |
+      Bla bla
+  npm:
+    name: npm
     url:
     description: |
       Bla bla
@@ -55,22 +86,6 @@ databases:
     url:
     description: |
       Bla bla
-caches:
-  memcached:
-    name: Memcached
-    url:
-    description: |
-      Bla bla
-  redis:
-    name: Redis
-    url:
-    description: |
-      Bla bla
-  aerospike:
-    name: Aerospike
-    url:
-    description: |
-      Bla bla
 libraries:
   spring:
     name: Spring
@@ -87,5 +102,66 @@ libraries:
     url:
     description: |
       Bla bla
+  osgi:
+    name: OSGi
+    url:
+    description: |
+      Bla bla
+  serenity_js:
+    name: Serenity/JS
+    url:
+    description: |
+      Bla bla
+  protractor:
+    name: Protractor
+    url:
+    description: |
+      Bla bla
+  cucumber:
+    name: Cucumber
+    url:
+    description: |
+      Bla bla
 ci_cd:
+  jenkins:
+    name: Jenkins
+    url:
+    description: |
+      Bla bla
 cloud:
+  kubernetes:
+    name: Kubernetes
+    url:
+    description: |
+      Bla bla
+  helm:
+    name: Helm
+    url:
+    description: |
+      Bla bla
+external_systems:
+  memcached:
+    name: Memcached
+    url:
+    description: |
+      Bla bla
+  redis:
+    name: Redis
+    url:
+    description: |
+      Bla bla
+  kafka:
+    name: Kafka
+    url:
+    description: |
+      Bla bla
+  aerospike:
+    name: Aerospike
+    url:
+    description: |
+      Bla bla
+  selenium_server:
+    name: Selenium Server
+    url:
+    description: |
+      Bla bla
