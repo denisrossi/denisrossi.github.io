@@ -2,6 +2,8 @@
 title: Denis Rossi
 layout: splash
 permalink: /
+header:
+  image: /assets/images/header.jpg
 ---
 ## What is this?
 Hi, I'm Denis. A backend engineer and this is an humble attempt to learn something new.

@@ -1,6 +1,22 @@
 include: ["_pages"]
 
+plugins:
+ - jekyll-include-cache
+
+# Build settings
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+minimal_mistakes_skin: air
+
 markdown: kramdown
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  tools:
+    output: true
 
 defaults:
   # _pages
@@ -17,27 +33,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
 
-plugins:
- - jekyll-include-cache
-
-# Build settings
-theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.19.3"
-minimal_mistakes_skin: air
-
+title: "Denis Rossi"
+title_separator: "|"
+subtitle: "Backend engineer personal website"
 masthead_title: "DR"
 breadcrumbs: true
 
 author: Denis Rossi
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
-  tools:
-    output: true
 
 analytics:
   provider: "google-gtag"
