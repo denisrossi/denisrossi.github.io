@@ -48,4 +48,3 @@ analytics:
   google:
     tracking_id: "UA-170207507-1"
     anonymize_ip: false # default
-
